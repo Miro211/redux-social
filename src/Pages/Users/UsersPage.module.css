@@ -1,0 +1,32 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+    padding: 40px;
+    min-height: 100vh;
+    background: #f9fafb;
+    gap: 24px;
+    place-items: center;
+    
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #f0f4ff;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    margin: 30px auto;
+
+}
+.error{
+    color: #2c5282;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+body{
+    background-color: white;
+}
