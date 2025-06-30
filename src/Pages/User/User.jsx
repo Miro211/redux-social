@@ -26,7 +26,7 @@ export function UserInfo(){
         </div>
 
         <div className={styles.info}>
-          <h1 className={styles.name}>{profile.fullName}</h1>
+          <h1 className={styles.name}>{profile?.fullName}</h1>
           <p className={styles.about}>
             {profile.aboutMe || 'No information provided yet.'}
           </p>
