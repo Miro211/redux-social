@@ -28,5 +28,12 @@ export const profileThunk = (id) => {
         })
     }
 }
-
+export const changePhotoThunk = (file, id) => {
+    return(dispatch) => {
+        socialAPI.changePhoto(file)
+        .then((res) => {
+            dispatch(profileThunk(id))
+        })
+    }
+}
 export default profileReducer

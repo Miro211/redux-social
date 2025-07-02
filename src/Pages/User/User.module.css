@@ -29,6 +29,7 @@
 }
 
 .avatar {
+  margin-bottom: 20px;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -85,4 +86,20 @@
 }
 body{
     background-color: black;
+}
+.container{
+  text-align: center;
+}
+input[type='file']{
+  display: none;
+}
+.photoChange{
+  background-color: #f27878;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }

@@ -28,7 +28,6 @@ export const loginThunk = (body) => {
     return (dispatch) => {
         socialAPI.login(body)
             .then((res) => {
-                console.log(res);
                 
                 const userId = res?.data?.data?.userId
                 if (userId) {
